@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'DerekGilbert.io',
-  siteDescription: 'An expression of of code, politics & things I think about. Read at your own parrel',
+  siteDescription: 'An expression of code, politics & things I think about. Read at your own parrel',
 
   plugins: [
     {
