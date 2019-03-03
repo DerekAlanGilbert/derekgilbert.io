@@ -1,3 +1,5 @@
+ [![Netlify Status](https://api.netlify.com/api/v1/badges/09546ba9-e3f9-4ec1-84ef-db558bd41a26/deploy-status)](https://app.netlify.com/sites/derekgilbert/deploys)
+
 # Gridsome Blog Starter
 
 > A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.
@@ -10,10 +12,6 @@
 - CSS variables, SCSS & BEM for styling.
 - 100, 100, 100, 100 score on Google Lighthouse.
 - Uses same front-matter fields as Dev.to.
-
-## Demo URL
-
-https://gridsome-starter-blog.netlify.com
 
 ## Install
 
