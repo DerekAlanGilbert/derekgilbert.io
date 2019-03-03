@@ -3,8 +3,7 @@ title: Another Blog Post
 date: 2019-03-03T21:19:16.289Z
 Tags:
   - anotherblog yay star-wars
-thumbnail: >-
-  https://raw.githubusercontent.com/DerekAlanGilbert/derekgilbert.io/master/content/posts/images/pawel-czerwinski-1404598-unsplash.jpg?token=Aq_pAuHiLkKmIlqgBK-XKuPWmXVKAeooks5cfEziwA%3D%3D
+thumbnail: /./images/pawel-czerwinski-1404598-unsplash.jpg
 ---
 We don’t serve their kind here! What? Your droids. They’ll have to wait outside. We don’t want them here. Listen, why don’t you wait out by the speeder. We don’t want any trouble. I heartily agree with you sir. Negola dewaghi wooldugger?!? He doesn’t like you. I’m sorry. I don’t like you either You just watch yourself. We’re wanted men. I have the death sentence in twelve systems. I’ll be careful than. You’ll be dead. This little one isn’t worth the effort. Come let me buy you something…
 
