@@ -1,17 +1,22 @@
  [![Netlify Status](https://api.netlify.com/api/v1/badges/09546ba9-e3f9-4ec1-84ef-db558bd41a26/deploy-status)](https://app.netlify.com/sites/derekgilbert/deploys)
 
-# Gridsome Blog Starter
+# DerekGilbert.io
 
-> A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.
+> A modified version of the Gridsome starter by [tomtev](https://github.com/tomtev). 
 
 ## Features
+- Netlify CMS
+- Netlify Large Media
 - Beautiful and simple design.
-- Markdown for content.
 - Tags support.
 - Dark / Light toggle.
 - CSS variables, SCSS & BEM for styling.
 - 100, 100, 100, 100 score on Google Lighthouse.
 - Uses same front-matter fields as Dev.to.
+
+
+
+To set up and get started with gridsome
 
 ## Install
 
@@ -24,4 +29,3 @@
 1. `gridsome create my-gridsome-site https://github.com/gridsome/gridsome-starter-blog.git`
 2. `cd my-gridsome-site` to open folder
 3. `gridsome develop` to start local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
