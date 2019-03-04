@@ -6,7 +6,8 @@
         <Logo v-if="showLogo" /> 
       </div>
       
-      <div class="header__right">        
+      <div class="header__right">  
+        <Navigation />      
         <ToggleTheme />
       </div>
     </header>
@@ -25,6 +26,7 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
+import Navigation from '~/components/Navigation.vue'
 import ToggleTheme from '~/components/ToggleTheme.vue'
 
 export default {
@@ -33,7 +35,8 @@ export default {
   },
   components: {
     Logo,
-    ToggleTheme
+    ToggleTheme,
+    Navigation
   }
 }
 </script>
