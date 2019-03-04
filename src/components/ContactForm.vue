@@ -1,6 +1,6 @@
 <template>
 	<div class="contact-form-wrapper content-box">
-    <!-- <form name="contact" action="/" method="POST"  data-netlify-recaptcha="true" data-netlify="true">
+    <form name="contact" action="/" method="POST"  data-netlify="true">
       <div class="input-wrapper">
         <label>Name</label>
         <input name="name" type="text"/>
@@ -13,32 +13,10 @@
       <label>Write a little about</label>
         <textarea name="contact" rows="10" spellcheck="true" wrap="hard"/>
       </div>
-      <div data-netlify-recaptcha="true"></div>
       <div class="input-wrapper">
         <button  class="submit" type="submit">Submit</button>
       </div>
-    </form> -->
-    
-    <form name="contact" method="POST" netlify>
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+    </form>
   </div>
 </template>
 
