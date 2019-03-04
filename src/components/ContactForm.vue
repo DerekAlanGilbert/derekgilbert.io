@@ -1,17 +1,17 @@
 <template>
 	<div class="contact-form-wrapper content-box">
-    <form name="contact" action="/thanks/" method="POST"  data-netlify="true">
+    <form name="contactForm" action="/thanks" method="POST"  data-netlify="true">
       <div class="input-wrapper">
         <label>Name</label>
-        <input name="name" type="text"/>
+        <input name=clientName type="text"/>
       </div>
       <div class="input-wrapper">
       <label>Email</label>
-        <input name="email" type="email"/>
+        <input name="cientEmail" type="email"/>
       </div>
       <div class="input-wrapper">
       <label>Write a little about</label>
-        <textarea name="contact" rows="10" spellcheck="true" wrap="hard"/>
+        <textarea name="clientContext" rows="10" spellcheck="true" wrap="hard"/>
       </div>
       <div class="input-wrapper">
         <button  class="submit" type="submit">Submit</button>
