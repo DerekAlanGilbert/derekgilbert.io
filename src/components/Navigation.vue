@@ -2,6 +2,7 @@
   <ul class="nav-wrapper text-center">
     <li><g-link  to="/">Home</g-link></li>
     <li><g-link  to="/contact">Contact</g-link></li>
+    <!-- <li><g-link  to="/thanks">Thanks</g-link></li> -->
   </ul>
 </template>
 
