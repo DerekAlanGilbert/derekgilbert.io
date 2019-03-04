@@ -1,6 +1,6 @@
 <template>
 	<div class="contact-form-wrapper content-box">
-    <form name="contact" action="/" method="POST"  data-netlify="true">
+    <form name="contact" action="/thanks/" method="POST"  data-netlify="true">
       <div class="input-wrapper">
         <label>Name</label>
         <input name="name" type="text"/>
