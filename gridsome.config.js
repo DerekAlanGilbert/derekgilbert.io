@@ -33,7 +33,11 @@ module.exports = {
         cacheTime: 600000, // default
         exclude: ['/thanks', '/contact'],
         config: {
-          'content/posts/*.m': {
+          '/*': {
+            changefreq: 'weekly',
+            priority: 0.5
+          },
+          'tag/*': {
             changefreq: 'weekly',
             priority: 0.5
           },
@@ -42,6 +46,12 @@ module.exports = {
             priority: 0.7
           }
         }
+      }
+    },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-135574090-1'
       }
     }
   ],
