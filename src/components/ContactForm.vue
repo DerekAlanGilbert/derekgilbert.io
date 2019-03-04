@@ -3,7 +3,6 @@
     <form name="contactForm" method="POST"  data-netlify="true">
       <input name=clientName type="text" placeholder="Name"/>
       <input name="cientEmail" type="email" placeholder="Email"/>
-      <label>Write a little about</label>
       <textarea name="clientContext" rows="10" spellcheck="true" wrap="hard" placeholder=" Write something about why we should work together..."/>
       <button  class="submit" type="submit">Submit</button>
     </form>
