@@ -1,7 +1,7 @@
 <template>
   <Layout :show-logo="false">
     <!-- Author intro -->
-    <Author :show-title="true" />
+    <Author :show-title="true" :show-intro="true" :show-links="true"/>
     
     <!-- List posts -->
     <div class="posts">
