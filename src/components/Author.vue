@@ -7,13 +7,13 @@
 			{{ $static.metaData.siteName }}
 		</h1>
 
-		<p class="author__intro">
+		<p  v-if="showIntro" class="author__intro">
 			An expression of Code, Politics & things I think about. Read at your own parrel
 		</p>
 
-		<p class="author__links">
-			<a href="//twitter.com/derekalangilbert">Follow on Twitter</a>
-			<a href="//github.com/gridsome/derekalangilbert">GitHub</a>
+		<p  v-if="showLinks" class="author__links">
+			<a href="https://twitter.com/DerekAGilbert">Follow on Twitter</a>
+			<a href="https://github.com/DerekAlanGilbert">GitHub</a>
 		</p>
 
 	</div>
@@ -29,7 +29,7 @@ query {
 
 <script>
 export default {
-	props: ['showTitle']
+	props: ['showTitle', 'showLinks', 'showIntro']
 }
 </script>
 
