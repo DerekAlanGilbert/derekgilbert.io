@@ -1,21 +1,11 @@
 <template>
 	<div class="contact-form-wrapper content-box">
-    <form name="contactForm" action="/thanks" method="POST"  data-netlify="true">
-      <div class="input-wrapper">
-        <label>Name</label>
-        <input name=clientName type="text"/>
-      </div>
-      <div class="input-wrapper">
-      <label>Email</label>
-        <input name="cientEmail" type="email"/>
-      </div>
-      <div class="input-wrapper">
+    <form name="contactForm" method="POST"  data-netlify="true">
+      <input name=clientName type="text" placeholder="Name"/>
+      <input name="cientEmail" type="email" placeholder="Email"/>
       <label>Write a little about</label>
-        <textarea name="clientContext" rows="10" spellcheck="true" wrap="hard"/>
-      </div>
-      <div class="input-wrapper">
-        <button  class="submit" type="submit">Submit</button>
-      </div>
+      <textarea name="clientContext" rows="10" spellcheck="true" wrap="hard" placeholder=" Write something about why we should work together..."/>
+      <button  class="submit" type="submit">Submit</button>
     </form>
   </div>
 </template>
@@ -26,7 +16,6 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 15px;
-    .input-wrapper{
       width: 100%;
       input, textarea {
         resize: none;
@@ -56,6 +45,4 @@
       }
     }
   }
-}
-
 </style>
