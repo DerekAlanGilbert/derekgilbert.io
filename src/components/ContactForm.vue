@@ -1,13 +1,46 @@
 <template>
 	<div class="contact-form-wrapper content-box">
-    <form name="contactForm" method="POST"  data-netlify="true">
-      <input name=clientName type="text" placeholder="Name"/>
-      <input name="cientEmail" type="email" placeholder="Email"/>
-      <textarea name="clientContext" rows="10" spellcheck="true" wrap="hard" placeholder=" Write something about why we should work together..."/>
-      <button  class="submit" type="submit">Submit</button>
+    <form 
+      name="contactForm" 
+      method="POST"  
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+      >
+      <input 
+        type="hidden" 
+        name="form-name" 
+        value="contactForm" />
+      <input 
+        name=clientName 
+        type="text"
+        placeholder="Name"/>
+      <input 
+        name="cientEmail" 
+        type="email" 
+        placeholder="Email"/>
+      <textarea 
+        name="clientContext" 
+        rows="10" s
+        pellcheck="true" 
+        wrap="hard" 
+        placeholder=" Write something about why we should work together..."/>
+      <button 
+        class="submit"
+        type="submit">Submit</button>
     </form>
   </div>
 </template>
+<script>
+export default {
+    methods: {
+    // updateList (ev) {
+    //   this.currentPanelist = ev.target.value
+    // }
+  }
+  
+}
+</script>
+
 
 <style lang="scss" scoped>
 .contact-form-wrapper {
