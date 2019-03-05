@@ -5,6 +5,7 @@
       method="POST"
       action="/thanks"
       data-netlify="true"
+      data-netlify-recaptcha="true"
       data-netlify-honeypot="bot-field"
       >
       <input 
@@ -25,6 +26,7 @@
         pellcheck="true" 
         wrap="hard" 
         placeholder=" Write something about why we should work together..."/>
+        <div data-netlify-recaptcha="true"></div>
       <button 
         class="submit"
         type="submit">Submit</button>
@@ -59,6 +61,7 @@ export default {
         }
       }
       .submit {
+        max-width: 180px;
         padding: 12px 24px;
         transition: 0.5s ease-in-out;
         border-radius: 6px;
