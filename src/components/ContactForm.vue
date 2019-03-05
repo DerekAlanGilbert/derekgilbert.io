@@ -25,7 +25,7 @@
         rows="10" s
         pellcheck="true" 
         wrap="hard" 
-        placeholder=" Write something about why we should work together..."/>
+        placeholder="Write something about why we should work together..."/>
         <div data-netlify-recaptcha="true"></div>
       <button 
         class="submit"
