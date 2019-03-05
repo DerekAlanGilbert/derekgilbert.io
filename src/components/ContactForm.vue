@@ -2,7 +2,8 @@
 	<div class="contact-form-wrapper content-box">
     <form 
       name="contactForm" 
-      method="POST"  
+      method="POST"
+      action="/thanks"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
       >
@@ -32,12 +33,6 @@
 </template>
 <script>
 export default {
-    methods: {
-    // updateList (ev) {
-    //   this.currentPanelist = ev.target.value
-    // }
-  }
-  
 }
 </script>
 
