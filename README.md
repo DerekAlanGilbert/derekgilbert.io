@@ -7,16 +7,13 @@
 ## Features
 - Netlify CMS
 - Netlify Large Media
-- Beautiful and simple design.
 - Tags support.
 - Dark / Light toggle.
 - CSS variables, SCSS & BEM for styling.
 - 100, 100, 100, 100 score on Google Lighthouse.
-- Uses same front-matter fields as Dev.to.
 
 
-
-To set up and get started with gridsome
+To get starter with this starter, follow directions below.
 
 ## Install
 
