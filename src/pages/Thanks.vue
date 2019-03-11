@@ -2,7 +2,6 @@
   <Layout :show-logo="false">
     <!-- Author intro -->
     <Author :show-title="true"  :show-links="true"/>
-    
     <!-- Return to Home -->
       <div class="content-box text-center">
         <h1> Thanks for contacting me, we'll be in touch </h1>
