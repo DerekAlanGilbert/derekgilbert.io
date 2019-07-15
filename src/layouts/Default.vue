@@ -3,11 +3,11 @@
 
     <header class="header">
       <div class="header__left">
-        <Logo v-if="showLogo" /> 
+        <Logo v-if="showLogo" />
       </div>
-      
-      <div class="header__right">  
-        <Navigation />      
+
+      <div class="header__right">
+        <Navigation />
         <ToggleTheme />
       </div>
     </header>

@@ -8,7 +8,7 @@
 		</h1>
 
 		<p  v-if="showIntro" class="author__intro">
-			An expression of Code, Politics & things I think about. Read at your own parrel
+			Welcome to my website, someday I plan to create content here. But until then you can go the <g-link to="/me">me</g-link> page and discover a little bit about me.
 		</p>
 
 		<p  v-if="showLinks" class="author__links">

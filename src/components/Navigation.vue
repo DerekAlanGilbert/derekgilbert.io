@@ -2,18 +2,15 @@
   <ul class="nav-wrapper text-center">
     <li><g-link  to="/">Home</g-link></li>
     <li><g-link  to="/contact">Contact</g-link></li>
-    <!-- <li><g-link  to="/thanks">Thanks</g-link></li> -->
+    <li><g-link  to="/me">Me</g-link></li>
   </ul>
 </template>
-
-<script>
-</script>
 
 <style lang="scss">
 .nav-wrapper {
   background-color: transparent;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 15px;
   margin: 0px;
   li {

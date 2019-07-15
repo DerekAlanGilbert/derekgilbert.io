@@ -1,7 +1,15 @@
 .text-center {
-	text-align: center;
+  text-align: center;
+}
+
+.error {
+  color: var(--error-color);
 }
 
 .space-bottom {
-	margin-bottom: var(--space);
+  margin-bottom: var(--space);
+}
+
+.w-100 {
+  width: 100%;
 }

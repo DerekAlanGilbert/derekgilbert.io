@@ -1,12 +1,14 @@
 <template>
   <Layout :show-logo="false">
     <!-- Author intro -->
+    <div class="index">
     <Author :show-title="true" :show-intro="true" :show-links="true"/>
-    
-    <!-- List posts -->
-    <div class="posts">
-      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
     </div>
+
+    <!-- List posts -->
+    <!-- <div class="posts">
+      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
+    </div> -->
 
   </Layout>
 </template>
@@ -53,3 +55,9 @@ export default {
   }
 }
 </script>
+
+ <style lang="scss" scoped>
+.index {
+height: 100vh;
+}
+</style>
